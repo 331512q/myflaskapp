@@ -1,0 +1,7 @@
+# requirements.txt
+Flask==2.0.1
+Werkzeug==2.0.3  # 关键：锁定与 Flask 2.0.1 兼容的 Werkzeug 版本
+pytest==7.4.3    # 升级 pytest，解决 Python 3.13 的 ast.Str 警告
+coverage==7.3.2  # 同步升级 coverage，适配新 pytest 版本
+flake8==7.3.0
+pytest-cov==4.1.0
